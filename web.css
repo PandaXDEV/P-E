@@ -1,0 +1,289 @@
+/* Global */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Funciones */
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* KeyFrames */
+
+
+/* Estilos de Pagina */
+
+.site-header {
+    background-image: url(mug-1209194_1920\ \(1\).jpg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.site-header .barra {
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#red {
+    color: rgb(255, 255, 255);
+}
+
+.site-header .barra .logo {
+    margin-top: 5rem;
+    font-size: 90px;
+    font-family: 'Yesteryear', cursive;
+    color: rgba(255, 255, 255, 0.24);
+}
+
+.site-header .barra .logo:hover {
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 0.24);
+}
+
+.site-header .barra .logo #red:hover {
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+}
+
+.site-header .barra .navegacion {
+    display: flex;
+}
+
+.site-header .barra .navegacion a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 3rem;
+    transition: all 2s;
+    font-weight: lighter;
+    margin: 3rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.site-header .barra .navegacion a:last-of-type {
+    margin-right: 0;
+}
+
+.site-header .barra .navegacion a:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+
+
+/*section-info*/
+
+.section-info {
+    height: 50rem;
+    border: black solid 7px;
+}
+
+.section-info .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-info .info .money {
+    flex-basis: calc(50% - 1rem);
+    text-align: center;
+}
+
+.section-info .info .money i {
+    font-size: 20rem;
+    color: gold;
+    margin-top: 5rem;
+}
+
+.section-info .info .time {
+    flex-basis: calc(50% - 1rem);
+    text-align: center;
+}
+
+.section-info .info .time i {
+    font-size: 20rem;
+    color: rgb(96, 180, 248);
+    margin-top: 5rem;
+}
+
+.section-info .info .money p {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.section-info .info .time p {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/*section-contac*/
+
+.section-contac {
+    height: 100rem;
+    background-image: url(sparkler-677774_1920.jpg);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.section-contac .contac {
+    display: block;
+    justify-content: space-around;
+}
+
+.section-contac .contac .instagram i {
+    font-size: 5rem;
+    margin-left: 20rem;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.section-contac .contac .facebook i {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.section-contac .contac .telefono i {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.section-contac .contac i {
+    padding-top: 5rem;
+}
+
+.section-contac .contac p {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-left: 4rem;
+    font-family: 'Comic Neue', cursive;
+}
+
+.form {
+    margin-left: 90rem;
+    width: 80px;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+.genero {
+    padding-top: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.enviar {
+    padding-top: 3rem;
+}
+
+
+/*section-gps*/
+
+.section-gps {
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    border: black solid 3px;
+    align-items: initial;
+}
+
+.section-gps .gps i {
+    font-size: 10rem;
+    color: rgb(255, 0, 0);
+    margin-top: 8rem;
+    margin-left: 40rem;
+}
+
+.localizacion {
+    font-size: 7rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Indie Flower', cursive;
+    margin: 2rem;
+}
+
+
+/*section-landscape*/
+
+.section-landscape {
+    height: 50rem;
+    background-image: url(https://img-cdn.hipertextual.com/files/2017/03/color-degradado-fondos-degradados-multicolor-51200.jpg?strip=all&lossy=1&quality=70&ssl=1);
+}
+
+.section-landscape .info {
+    display: flex;
+}
+
+.section-landscape .info .text {
+    flex-basis: calc(50% - 1rem);
+    text-align: center;
+    background-color: rgba(255, 105, 180, 0);
+}
+
+.section-landscape .info .text i {
+    font-size: 10rem;
+    color: rgb(0, 0, 0);
+    margin-left: 25rem;
+    display: flex;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.section-landscape .info .text2 i {
+    font-size: 10rem;
+    color: rgb(0, 0, 0);
+    margin-left: 25rem;
+    display: flex;
+    align-items: center;
+    margin-top: rem;
+}
+
+.section-landscape .info .text2 {
+    flex-basis: calc(50% - 1rem);
+    text-align: center;
+    background-color: rgba(205, 92, 92, 0);
+}
+
+.section-landscape .info .text p {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 8.7rem;
+}
+
+.section-landscape .info .text2 p {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin: 10rem;
+}
+
+.section-landscape .info .text2 p {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10rem;
+}
